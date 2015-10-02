@@ -1,0 +1,21 @@
+{
+  "name": "fleek-response",
+  "version": "0.4.1",
+  "description": "A response module for the fleek framework",
+  "main": "lib/response.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "fleek",
+    "response",
+    "swagger"
+  ],
+  "engines": {
+    "node": ">= 0.11.16"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.8.0"
+  }
+}
