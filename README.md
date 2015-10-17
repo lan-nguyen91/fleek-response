@@ -10,9 +10,15 @@ Quick reference:
 ## Usage
 ```javascript
 
-  //using with fleek-router
+  //using a option parameter in generic koa-app
+  ...
+  var flr = require('fleek-router');
 
-  var fleekResponse = require("fleek-response")('http');
+  flr(app, { response : true });
+
+  //using within fleek-router
+
+  var fleekResponse = require("fleek-response");
   var route         = require("koa-router");
 
   ...
