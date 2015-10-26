@@ -19,7 +19,7 @@
     "lodash": "^3.8.0",
     "co": "^4.6.0",
     "fleek-router" : "0.4.2",
-    "fleek-parser": "0.1.5",
+    "fleek-parser": "git@github.com:lan-nguyen91/fleek-parser.git",
     "chai" : "3.3.0",
     "is_js" : "0.7.4",
     "koa" : "1.0.0",
